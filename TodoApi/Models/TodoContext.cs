@@ -12,6 +12,8 @@ namespace TodoApi.Models
             : base(options)
         {
         }
+
         public DbSet<TodoItem> TodoItems { get; set; }
     }
 }
+
